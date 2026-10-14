@@ -6,7 +6,7 @@ def evenodd(n):
         return "Even Number"
     else:
         return "Odd Number"
+if __name__ == "__main__":
+    n = int(sys.argv[1])
 
-n = int(sys.argv[1])
-
-print("The Result is: ",evenodd(n))
+    print("The Result is: ",evenodd(n))
